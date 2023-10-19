@@ -1,37 +1,28 @@
-1. Разработка RECT API предоставляющая возможность ведение блога
-2. Сущности:
+<h1 align="center">Hi there, I'm <a href="">Gennady</a>
+	<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
+<h3 align="center">I am a student at the Product Star school, studying Python programming.</h3>
+<h3>This is a homework assignment on the topic "API development on Flask" from the Python developer course.</h3>
 
-    2.1. пользователь.
+<h4>Текст задания:</h4>
+<p>1. Необходимо разработать REST API, предоставляющее возможность ведения блога.</p>
 
-    2.2. пост.
+<p>2. API должен иметь минимум 2 сущности:
+<li>Пользователь</li>
+<li>Пост</li>
+</p>
 
-    2.3. комментарий.
-3. Пользователь имеет возможность:
+<p>3. Пользователь должен иметь возможность:
+<li>создать</li>
+<li>прочитать</li>
+<li>изменить</li>
+<li>удалить пост</li>
+</p>
+<p>4. Задание должно быть выполнено с помощью фреймворка Flask.</p>
 
-    3.1. Создать, прочитать, изменить и удалить пост.
+<p>5. Задание необходимо предоставить в виде архива с исходными кодом или ссылки на репозиторий в github/gitlab</p>
 
-    3.2. Получить список всех постов.
+<p>помимо кода, должна быть краткая инструкция по запуску задания
+в инструкции необходимо указать примеры тела запросов, HTTP метод и соответствующие URL для осуществления операций</p>
 
-    3.3. Добавить и удалить комментарии к посту# -API-Flask
-
-добавить пост:
-
-    # {"body": "my first post", "author": "@genna582", "comment": " "}
-    
-    # {"body": "my second post","author": "@genna582", "comment": " "}
-
-добавить комментарии:
-
-	localhost:5000/post/0
-
-    # {"comment": "first post good"}
-
-	localhost:5000/post/1
-	
-    # {"comment": "second post good"}
-
-удалить пост:
-
-	localhost:5000/post/0
-
-	localhost:5000/post/1
+<p>Для скачивание проекта:</p>
+Нажмите кнопку `Code` в правом верхнем углу. Выпадет меню, в котором нужно выбрать `Download ZIP`
