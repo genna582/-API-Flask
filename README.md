@@ -1,7 +1,7 @@
-<h1 align="center">Hi there, I'm <a href="">Gennady</a>
+<h1 align="center">Всем привет, я <a href="">Геннадий</a>
 	<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
-<h3 align="center">I am a student at the Product Star school, studying Python programming.</h3>
-<h3>This is a homework assignment on the topic "API development on Flask" from the Python developer course.</h3>
+<h3 align="center">Я студент школы Product Star, изучаю программирование на Python.</h3>
+<h3 align="center">Это домашнее задание по теме "Разработка API на Flask"</h3>
 
 ## Текст задания:
 #### 1. Необходимо разработать REST API, предоставляющее возможность ведения блога.
@@ -25,13 +25,14 @@
 ## Для скачивание проекта:
 Нажмите кнопку `Code` в правом верхнем углу. Выпадет меню, в котором нужно выбрать `Download ZIP`
 ## Запуск проекта
-Для запуска проекта я использовал `PyCharm`
+
+### Для запуска проекта я использовал `PyCharm`
 
 Запустить проект можно через терминал командой:`python main.py` или кнопкой `Run main` (`Shift+F10`) в верхнем меню
 
 остановить `Press CTRL+C to quit`
 
-Виртуальное акружение `Postman`
+### Виртуальное акружение `Postman`
 
 #### Сченарий для просмотра созданных постов:
 выберите в выпадающем списке `GET` и ведите в поле адрес `http://127.0.0.1:5000/post` потом `Send`:
